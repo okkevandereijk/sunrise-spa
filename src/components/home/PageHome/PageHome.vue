@@ -2,5 +2,5 @@
 <style src="./PageHome.scss" lang="scss"></style>
 
 <template>
-<Payment />
+<Payment v-bind:amount="{ value: 22, currency: 'UA' }"/>
 </template>
