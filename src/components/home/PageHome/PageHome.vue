@@ -2,5 +2,5 @@
 <style src="./PageHome.scss" lang="scss"></style>
 
 <template>
-<Adyen />
+<Payment />
 </template>

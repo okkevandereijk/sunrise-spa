@@ -1,6 +1,6 @@
-import Adyen from './Adyen/Adyen.vue'
+import Payment from './Payment/index'
 export default {
   components: {
-    Adyen,
+    Payment,
   },
 };

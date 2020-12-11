@@ -30,12 +30,14 @@ const configuration = {
     ],
   },
   clientKey:"test_47VU4CE62ZAH5GPENGB37LOWVYXLEWUU",
-  locale:"en-US",
+  locale:"au-AU",
+  showPayButton:true,
+  amount:{ value: 22, currency: 'UA' },
   environment:"test",
-  onSubmit:(...args)=>{
-    console.log('we are in onsubmit',args);
+  onSubmit:(result)=>{
+    console.log('we are in onsubmit',result);
+    console.log(JSON.stringify(result.data.paymentMethod))
     return 88;
-    debugger
   },
   onAdditionalDetails:(...args)=>{
     console.log('Additional details: this is mandatory but not sure how to use it',args)
