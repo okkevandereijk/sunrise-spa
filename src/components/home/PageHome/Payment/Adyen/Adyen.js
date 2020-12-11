@@ -1,4 +1,9 @@
 /* eslint-disable no-console */
+/**
+ * To use this component set the VUE_APP_USE_ADYEN to 1
+ * in your environment variables
+ */
+
 import AdyenCheckout from "@adyen/adyen-web";
 import "@adyen/adyen-web/dist/adyen.css";
 
