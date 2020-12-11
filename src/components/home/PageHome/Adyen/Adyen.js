@@ -43,8 +43,8 @@ const configuration = {
 
 };
 export default {
-  mounted:()=>{
+  mounted() {
     const checkout = new AdyenCheckout(configuration);
-    const card = checkout.create('card').mount('#adyen-component-container');
+    const card = checkout.create('card').mount(this.$refs.adyen);
   }
 };

@@ -3,7 +3,7 @@
 <template>
 <div>ok
 
-<div id="adyen-component-container"></div>
+<div ref="adyen"></div>
 
 </div>
 </template>
