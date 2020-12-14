@@ -47,7 +47,7 @@
                   <div class="logo">
                     <router-link to="/">
                       <img
-                        src="../../../assets/img/logo.svg"
+                        src="../../../assets/img/kleertjes-logo.svg"
                         alt="SUNRISE"
                         class="img-responsive sunrise-logo"
                       />
