@@ -20,8 +20,8 @@
           <div class="row height-100-percent align-items-center">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12">
               <div class="slider-content-8 slider-animated-1 text-center">
-                <h3 class="animated">{{ bannerTitle }}</h3>
-                <h1 class="animated">{{ bannerSubtitle }}</h1>
+                <h3 class="animated">{{ bannerTitle || '' }}</h3>
+                <h1 class="animated">{{ bannerSubtitle || '' }}</h1>
                 <div class="slider-btn-1">
                   <router-link
                     :to="{ name: 'products', params: { categorySlug: 'sale' } }"
