@@ -20,8 +20,8 @@
           <div class="row height-100-percent align-items-center">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12">
               <div class="slider-content-8 slider-animated-1 text-center">
-                <h3 class="animated">{{$t("midSeasonSale")}}</h3>
-                <h1 class="animated">{{$t("up50")}}</h1>
+                <h3 class="animated">{{ bannerTitle }}</h3>
+                <h1 class="animated">{{ bannerSubtitle }}</h1>
                 <div class="slider-btn-1">
                   <router-link
                     :to="{ name: 'products', params: { categorySlug: 'sale' } }"
@@ -34,15 +34,15 @@
           </div>
         </div>
       </div>
-      <div
+      <!-- <div
         class="single-slider bg-img slider-height-2 align-items-center custom-d-flex"
         style="background-image:url(assets/img/banner8.jpg);"
       >
         <div class="container">
           <div class="row height-100-percent align-items-center">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-              <div class="slider-content-9 slider-animated-1">
-                <h1 class="animated"><span>{{$t("checkout")}} </span> {{$t("newCollection")}}</h1>
+              <div class="slider-content-9 slider-animated-1 text-center">
+                <h1 class="text-center">{{ bannerTitle }}</h1>
                 <div class="slider-btn-1 text-center">
                   <router-link
                     :to="{ name: 'products', params: { categorySlug: 'new' } }"
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </carousel>
   </div>
 </template>
